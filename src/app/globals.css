@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #07080b; --background-secondary: #0a0b10;
+  --surface: #101218; --surface-elevated: #151821; --surface-highlight: #1a1d26;
+  --border: rgba(255, 255, 255, 0.1); --border-strong: rgba(255, 255, 255, 0.14);
+  --text-primary: #f5f7fa; --text-secondary: #9ca3af; --text-muted: #656d78;
+  --cyan: #00e5ff; --cyan-hover: #52edff; --cyan-soft: rgba(0, 229, 255, 0.1);
+  --lime: #a3ff12; --lime-hover: #b8ff4d; --lime-soft: rgba(163, 255, 18, 0.1);
+  --accent: var(--cyan); --accent-soft: var(--cyan-soft);
+}
+html { scroll-behavior: smooth; color-scheme: dark; }
+body { background: var(--background); color: var(--text-primary); -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+
+.grid-bg {
+  background-image: linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+  background-size: 56px 56px;
+  -webkit-mask-image: radial-gradient(ellipse at 50% 30%, #000 25%, transparent 72%);
+  mask-image: radial-gradient(ellipse at 50% 30%, #000 25%, transparent 72%);
+}
+.glow { background: radial-gradient(circle at center, var(--accent-soft), transparent 65%); }
+
+/* Uma única entrada orquestrada: o hero. */
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+.rise-2 { animation-delay: 0.08s; } .rise-3 { animation-delay: 0.16s; } .rise-4 { animation-delay: 0.24s; }
+@keyframes pulse-dot { 50% { opacity: 0.35; } }
+.live-dot { animation: pulse-dot 2s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition-duration: 0.01ms !important; }
+}
