@@ -87,8 +87,8 @@ export const projects: Project[] = [
       "Serviços registrados",
       "Tempo médio de atendimento",
     ],
-    demoUrl: "",
-    githubUrl: "",
+    demoUrl: "https://serviceflow-two.vercel.app/",
+    githubUrl: "https://github.com/Fabrioco/serviceflow",
     next: "theorderflow",
   },
   {
@@ -167,8 +167,8 @@ export const projects: Project[] = [
       "Tempo médio de preparo",
       "Estabelecimentos ativos",
     ],
-    demoUrl: "",
-    githubUrl: "",
+    demoUrl: "https://orderflow-coral.vercel.app/",
+    githubUrl: "https://github.com/Fabrioco/OrderFlow-Web",
     next: "serviceflow",
   },
 ];

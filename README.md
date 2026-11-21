@@ -62,7 +62,9 @@ Plataforma **multi-tenant** para empresas prestadoras de serviços organizarem c
 - **Destaques:** dashboard operacional, ordens de serviço com status, permissões por papel, relatórios e administração por organização.
 - **Stack:** React · TypeScript · Node.js · PostgreSQL · REST API · JWT
 
-[![Ver projeto](https://img.shields.io/badge/Ver_projeto-00E5FF?style=flat-square&logoColor=07080B)](https://portfolio-fabricio-lopes.vercel.app/projetos/serviceflow)
+[![Deploy](https://img.shields.io/badge/Deploy-00E5FF?style=flat-square&logo=vercel&logoColor=07080B)](https://serviceflow-two.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-07080B?style=flat-square&logo=github&logoColor=00E5FF)](https://github.com/Fabrioco/serviceflow)
+[![Case completo](https://img.shields.io/badge/Case_completo-07080B?style=flat-square&logoColor=A3FF12)](https://portfolio-fabricio-lopes.vercel.app/projetos/serviceflow)
 
 ### TheOrderFlow · Pedidos em tempo real
 
@@ -75,7 +77,9 @@ Painel de pedidos em **tempo real** com cardápio digital próprio para lanchone
 - **Destaques:** pedidos ao vivo via WebSockets, status claros, cardápio por tenant, notificações e administração multi-tenant.
 - **Stack:** React · TypeScript · Node.js · WebSockets · PostgreSQL · Docker
 
-[![Ver projeto](https://img.shields.io/badge/Ver_projeto-A3FF12?style=flat-square&logoColor=07080B)](https://portfolio-fabricio-lopes.vercel.app/projetos/theorderflow)
+[![Deploy](https://img.shields.io/badge/Deploy-A3FF12?style=flat-square&logo=vercel&logoColor=07080B)](https://orderflow-coral.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-07080B?style=flat-square&logo=github&logoColor=00E5FF)](https://github.com/Fabrioco/OrderFlow-Web)
+[![Case completo](https://img.shields.io/badge/Case_completo-07080B?style=flat-square&logoColor=A3FF12)](https://portfolio-fabricio-lopes.vercel.app/projetos/theorderflow)
 
 ## 🧠 Como eu trabalho
 
