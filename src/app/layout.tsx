@@ -13,14 +13,22 @@ export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: { default: site.title, template: `%s | ${site.name}` },
   description: site.description,
-  openGraph: { type: "website", locale: "pt_BR", title: site.title, description: site.description, siteName: site.name },
-  twitter: { card: "summary_large_image", title: site.title, description: site.description },
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: site.url,
+    title: site.title,
+    description: site.description,
+    siteName: site.name,
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630, alt: `${site.name} — ${site.title}` }],
+  },
+  twitter: { card: "summary_large_image", title: site.title, description: site.description, images: ["/og-image.jpg"] },
   icons: { icon: "/icon.svg" },
 };
 export const viewport: Viewport = { themeColor: "#07080b" };
 
 // Dados estruturados simples. Preencha sameAs com seus perfis reais.
-const jsonLd = { "@context": "https://schema.org", "@type": "Person", name: site.name, jobTitle: "Desenvolvedor Full-Stack", url: site.url };
+const jsonLd = { "@context": "https://schema.org", "@type": "Person", name: site.name, jobTitle: "Desenvolvedor Full-Stack", url: site.url, image: `${site.url}/og-image.jpg` };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (

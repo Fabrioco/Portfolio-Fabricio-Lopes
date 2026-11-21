@@ -11,7 +11,7 @@ export const contact = {
 export const site = {
   name: "Fabrício Oliveira Lopes",
   initials: "FL",
-  url: "https://seu-dominio.com.br",
+  url: "https://portfolio-fabricio-lopes.vercel.app",
   title: "Desenvolvedor Full-Stack | Sistemas web e SaaS multi-tenant",
   description:
     "Construo sistemas web, SaaS multi-tenant e painéis administrativos que organizam operações, reduzem trabalho manual e preparam negócios para crescer.",
