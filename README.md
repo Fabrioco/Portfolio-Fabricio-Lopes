@@ -2,7 +2,7 @@
 
 # Fabrício Oliveira Lopes
 
-**Desenvolvedor Full-Stack** — sistemas web, SaaS multi-tenant e painéis administrativos sob medida.
+**Desenvolvedor Full-Stack** — construo sistemas web, SaaS multi-tenant e painéis administrativos sob medida.
 
 Transformo processos manuais em sistemas digitais que organizam a operação, reduzem trabalho repetitivo e preparam o negócio para crescer.
 
@@ -14,147 +14,96 @@ Transformo processos manuais em sistemas digitais que organizam a operação, re
 
 <br />
 
-![Next.js](https://img.shields.io/badge/Next.js_15-07080B?style=for-the-badge&logo=nextdotjs&logoColor=00E5FF)
-![React](https://img.shields.io/badge/React_19-07080B?style=for-the-badge&logo=react&logoColor=00E5FF)
-![TypeScript](https://img.shields.io/badge/TypeScript_5-07080B?style=for-the-badge&logo=typescript&logoColor=00E5FF)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_3-07080B?style=for-the-badge&logo=tailwindcss&logoColor=A3FF12)
-![Vercel](https://img.shields.io/badge/Deploy-Vercel-07080B?style=for-the-badge&logo=vercel&logoColor=A3FF12)
+![React](https://img.shields.io/badge/React-07080B?style=for-the-badge&logo=react&logoColor=00E5FF)
+![Next.js](https://img.shields.io/badge/Next.js-07080B?style=for-the-badge&logo=nextdotjs&logoColor=00E5FF)
+![TypeScript](https://img.shields.io/badge/TypeScript-07080B?style=for-the-badge&logo=typescript&logoColor=00E5FF)
+![Node.js](https://img.shields.io/badge/Node.js-07080B?style=for-the-badge&logo=nodedotjs&logoColor=A3FF12)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-07080B?style=for-the-badge&logo=postgresql&logoColor=00E5FF)
 
 </div>
 
 <p align="center">
   <a href="https://portfolio-fabricio-lopes.vercel.app">
-    <img src="public/og-image.jpg" alt="Prévia do portfólio de Fabrício Oliveira Lopes" width="760" />
+    <img src="public/og-image.jpg" alt="Fabrício Oliveira Lopes — Desenvolvedor Full-Stack" width="720" />
   </a>
 </p>
 
-## 🚀 Sobre o projeto
+> **Este é o meu portfólio pessoal.** O código, o design e os textos são autorais e **não são um template**. Não devem ser copiados, reutilizados ou redistribuídos sem a minha autorização.
 
-Este repositório é o meu portfólio pessoal: uma aplicação **Next.js 15 (App Router)** escrita em **TypeScript**, estilizada com **Tailwind CSS 3** e publicada na **Vercel**.
+## 👋 Sobre mim
 
-O site apresenta quem eu sou, os serviços que ofereço e dois produtos completos que desenvolvi — **ServiceFlow** (gestão de serviços) e **TheOrderFlow** (pedidos em tempo real) — com páginas dedicadas que explicam problema, solução, funcionalidades e arquitetura de cada um.
+Sou **Fabrício Oliveira Lopes**, desenvolvedor full-stack. Gosto de entender o problema antes de escrever a primeira linha de código: quem usa o sistema, onde o processo trava e qual resultado ele precisa gerar.
 
-O design usa um tema escuro com acentos em **ciano** (`#00E5FF`) e **lima** (`#A3FF12`), tipografia própria e microinterações discretas.
+Meu trabalho vai do front-end ao banco de dados — interface, API, autenticação, modelagem e infraestrutura pensados juntos. O objetivo é sempre o mesmo: transformar uma operação bagunçada em um sistema simples de usar e preparado para crescer.
 
-## ✨ Funcionalidades
+## 🛠️ O que eu faço
 
-- **Página inicial completa** — hero, público-alvo, projetos em destaque, serviços, stack, processo de trabalho e chamada final para contato.
-- **Páginas de projeto dinâmicas** — rotas `/projetos/[slug]` geradas estaticamente, com contexto, funcionalidades, arquitetura multi-tenant e métricas.
-- **Mockups interativos** — o painel do TheOrderFlow simula um kanban ao vivo (novos pedidos, avanço de colunas e limite de cards), pausando fora da tela, com a aba oculta e respeitando `prefers-reduced-motion`.
-- **Formulário de contato** — validação no cliente, proteção contra spam via honeypot, estados de envio e integração com o Formspree.
-- **Acessibilidade** — navegação por teclado, `aria-*` nos componentes interativos, foco visível e suporte a movimento reduzido.
-- **SEO e compartilhamento** — metadados, OpenGraph/Twitter Cards, JSON-LD (`schema.org/Person`) e imagem OG 1200×630.
-- **Responsivo** — layout adaptado de telas pequenas a desktops amplos.
+| Serviço | Descrição |
+| --- | --- |
+| **Sistemas web sob medida** | Aplicações desenhadas para o fluxo real da operação. |
+| **SaaS multi-tenant** | Um produto, várias empresas, com dados e permissões isolados. |
+| **Painéis administrativos** | Visão central de clientes, pedidos, equipes e relatórios. |
+| **APIs e integrações** | Conexão entre sistemas, pagamentos e serviços externos. |
+| **Automação de processos** | Menos tarefas repetitivas e menos erro manual. |
+| **Sistemas de gestão e operação** | Rotina, agenda e acompanhamento em um só lugar. |
 
-## 🧱 Stack
+## 🚀 Meus projetos
+
+Dois produtos que desenvolvi de ponta a ponta. Cada um tem uma página dedicada no site com o contexto completo.
+
+### ServiceFlow · SaaS de gestão de serviços
+
+> Toda a operação da empresa em um só fluxo.
+
+Plataforma **multi-tenant** para empresas prestadoras de serviços organizarem clientes, agenda, equipes e histórico em um único sistema.
+
+- **Problema:** a operação ainda depende de papel, planilhas e WhatsApp.
+- **Solução:** painel administrativo com clientes, serviços, equipes e acompanhamento das atividades.
+- **Destaques:** dashboard operacional, ordens de serviço com status, permissões por papel, relatórios e administração por organização.
+- **Stack:** React · TypeScript · Node.js · PostgreSQL · REST API · JWT
+
+[![Ver projeto](https://img.shields.io/badge/Ver_projeto-00E5FF?style=flat-square&logoColor=07080B)](https://portfolio-fabricio-lopes.vercel.app/projetos/serviceflow)
+
+### TheOrderFlow · Pedidos em tempo real
+
+> Do cardápio à cozinha, sem perder nenhum pedido.
+
+Painel de pedidos em **tempo real** com cardápio digital próprio para lanchonetes que hoje dependem do WhatsApp.
+
+- **Problema:** pedidos perdidos, informações misturadas e pouco controle da operação.
+- **Solução:** kanban de pedidos em tempo real e cardápio digital para cada estabelecimento.
+- **Destaques:** pedidos ao vivo via WebSockets, status claros, cardápio por tenant, notificações e administração multi-tenant.
+- **Stack:** React · TypeScript · Node.js · WebSockets · PostgreSQL · Docker
+
+[![Ver projeto](https://img.shields.io/badge/Ver_projeto-A3FF12?style=flat-square&logoColor=07080B)](https://portfolio-fabricio-lopes.vercel.app/projetos/theorderflow)
+
+## 🧠 Como eu trabalho
+
+- **Clareza antes da complexidade** — a solução mais simples que resolve o problema vence a mais sofisticada.
+- **Sistema completo, não apenas telas** — interface, API, banco de dados e infraestrutura pensados juntos.
+- **Base preparada para evoluir** — estrutura organizada para receber novos recursos sem reescrever tudo.
+- **Comunicação sem ruído** — decisões explicadas em linguagem direta, sem jargão desnecessário.
+
+## ⚙️ Stack
 
 | Camada | Tecnologias |
 | --- | --- |
-| Framework | Next.js 15 (App Router) |
-| UI | React 19 |
-| Linguagem | TypeScript 5 |
-| Estilo | Tailwind CSS 3, PostCSS, Autoprefixer |
-| Ícones | lucide-react |
-| Fontes | Space Grotesk, Inter e JetBrains Mono via `next/font` |
-| Formulário | Formspree (sem backend próprio) |
-| Deploy | Vercel |
-
-## 🗂️ Estrutura do projeto
-
-```text
-src/
-├── app/
-│   ├── layout.tsx            # Metadados, fontes, header/footer e JSON-LD
-│   ├── page.tsx              # Página inicial
-│   ├── globals.css           # Tokens de cor, tema e animações
-│   ├── contato/              # Página de contato
-│   └── projetos/[slug]/      # Páginas dinâmicas dos projetos
-├── components/
-│   ├── layout/               # Header e Footer
-│   ├── sections/             # Hero, Services, Stack, Process, ContactForm...
-│   ├── projects/             # Cards, grid de features e arquitetura
-│   ├── mockups/              # Mockups dos produtos (kanban ao vivo etc.)
-│   └── ui/                   # Botões, Container, SectionHeading, tags...
-└── data/                     # Conteúdo centralizado (contato, projetos, serviços)
-```
-
-## ⚙️ Como rodar
-
-**Pré-requisitos:** Node.js 18+ e npm.
-
-```bash
-# Instalar dependências
-npm install
-
-# Ambiente de desenvolvimento
-npm run dev
-# http://localhost:3000
-
-# Build de produção
-npm run build
-npm run start
-```
-
-## 🔐 Variáveis de ambiente
-
-O formulário de contato usa o [Formspree](https://formspree.io), sem backend próprio.
-
-1. Crie uma conta no Formspree e um novo formulário em **Forms → New form**.
-2. Copie o **form ID** — o trecho final do endpoint `https://formspree.io/f/{form-id}`.
-3. Crie o arquivo `.env.local` a partir do exemplo e preencha a variável:
-
-   ```bash
-   cp .env.example .env.local
-   ```
-
-   ```env
-   NEXT_PUBLIC_FORMSPREE_ID=seu_form_id
-   ```
-
-4. Reinicie o servidor de desenvolvimento.
-
-> Variáveis com prefixo `NEXT_PUBLIC_` ficam visíveis no navegador. Isso é esperado aqui, pois o form ID do Formspree é público — nunca coloque segredos nesse prefixo.
-
-## ☁️ Deploy
-
-O deploy é feito na **Vercel** a partir da branch `main`.
-
-1. Em **Settings → Environment Variables**, cadastre `NEXT_PUBLIC_FORMSPREE_ID` (ambientes Production, Preview e Development).
-2. Faça um novo deploy — variáveis `NEXT_PUBLIC_*` são incorporadas no build, então salvar não basta.
-3. Se o formulário do Formspree tiver restrição de domínio, adicione o domínio do site em **Settings → Allowed domains**.
-
-**Site em produção:** https://portfolio-fabricio-lopes.vercel.app
-
-## 📜 Scripts
-
-| Comando | Descrição |
-| --- | --- |
-| `npm run dev` | Inicia o servidor de desenvolvimento |
-| `npm run build` | Gera o build de produção |
-| `npm run start` | Executa o build de produção |
-| `npm run lint` | Analisa o código com ESLint |
-| `npm run typecheck` | Verifica os tipos com TypeScript |
-
-## ✏️ Personalização
-
-O conteúdo é centralizado em `src/data/`:
-
-- `contact.ts` — nome, URL do site, e-mail, WhatsApp, LinkedIn, GitHub e currículo.
-- `projects.ts` — dados dos projetos, links de demo/repositório e textos.
-- `services.ts` — serviços oferecidos.
-- `technologies.ts` — grupos da stack.
-- `content.ts` — headline e princípios de trabalho.
-
-Arquivos estáticos (currículo, imagem OG, favicon) ficam em `public/`.
+| Front-end | React, Next.js, TypeScript, Tailwind CSS |
+| Back-end | Node.js, REST APIs, autenticação, WebSockets |
+| Dados | PostgreSQL, Prisma, modelagem, multi-tenancy |
+| Entrega | Docker, Git e GitHub, CI/CD, cloud |
 
 ## 📬 Contato
 
+Quer tirar uma ideia do papel ou conversar sobre um projeto?
+
 - **Site:** https://portfolio-fabricio-lopes.vercel.app
+- **Formulário:** https://portfolio-fabricio-lopes.vercel.app/contato
 - **GitHub:** https://github.com/Fabrioco
 - **LinkedIn:** https://www.linkedin.com/in/fabrício-oliveira-lopes-b713892bb
 
-Para propostas e dúvidas, use o formulário em [/contato](https://portfolio-fabricio-lopes.vercel.app/contato).
-
-## 📄 Licença
+## © Direitos
 
 © Fabrício Oliveira Lopes. Todos os direitos reservados.
+
+Este repositório é um portfólio pessoal, **não um template**. Não é permitido copiar, adaptar ou reutilizar o código, o design ou os textos como base para outros projetos sem autorização.
