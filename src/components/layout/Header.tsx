@@ -114,7 +114,7 @@ export function Header() {
             scrolled ? "py-2 shadow-xl shadow-black/25" : "py-2.5"
           }`}
         >
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between px-4">
             <Link
               href="/"
               onClick={close}
