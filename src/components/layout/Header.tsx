@@ -176,7 +176,7 @@ export function Header() {
                 animate={{ height: "auto", opacity: 1 }}
                 exit={{ height: 0, opacity: 0 }}
                 transition={{ duration: reduce ? 0 : 0.25, ease: EASE }}
-                className="overflow-hidden md:hidden"
+                className="overflow-hidden md:hidden px-4"
               >
                 {mobileLinks.map((l, i) => {
                   const isPage = pathname === l.href;
