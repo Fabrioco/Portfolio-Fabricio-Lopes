@@ -5,6 +5,7 @@ import type { Project } from "@/data/projects";
 import { ProjectDashboard } from "@/components/mockups/ProjectDashboard";
 import { TechnologyTag } from "@/components/ui/TechnologyTag";
 import { Eyebrow } from "@/components/ui/Eyebrow";
+import { Tilt } from "@/components/motion/Tilt";
 
 export function ProjectCard({ project, flip }: { project: Project; flip?: boolean }) {
   return (
@@ -20,7 +21,7 @@ export function ProjectCard({ project, flip }: { project: Project; flip?: boolea
           Ver case completo <ArrowRight aria-hidden size={16} className="transition-transform duration-200 group-hover:translate-x-1" />
         </Link>
       </div>
-      <ProjectDashboard slug={project.slug} />
+      <Tilt className="min-w-0"><ProjectDashboard slug={project.slug} /></Tilt>
     </article>
   );
 }

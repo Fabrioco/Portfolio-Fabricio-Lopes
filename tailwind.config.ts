@@ -17,6 +17,14 @@ const config: Config = {
         mono: ["var(--font-mono)", "ui-monospace", "monospace"],
       },
       maxWidth: { page: "1200px" },
+      transitionTimingFunction: {
+        expo: "cubic-bezier(0.22, 1, 0.36, 1)",
+      },
+      transitionDuration: {
+        micro: "180ms",
+        reveal: "600ms",
+        choreo: "850ms",
+      },
     },
   },
   plugins: [],
